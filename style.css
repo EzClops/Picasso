@@ -1,0 +1,247 @@
+body{
+
+}
+main {
+    
+}
+header{
+    text-align: center;
+}
+.container .flex-container {
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 40px;
+    max-width: 1500px;
+    height: 600px;
+}
+
+.container .flex-container .background {
+    position: relative;
+    margin: 0px 20px 20px 0px;
+    height: 200px;
+    width: 30%;
+    background-color: teal;
+}
+
+.container .flex-container .background:nth-child(4){
+    display: block;
+    width: 93%;
+    height: 380px;
+    margin: 0;
+}
+.container .shapes{
+    display: flex;
+}
+.container .shapes .rectangles{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 66%;
+    height: 14.7%;
+    top: 600px;
+    left: 28px;
+    /* left: 20px; */
+}
+.container .shapes .rectangles .rectangle {
+    object-fit: cover;
+    /* position: absolute; */
+    width: 5.6%;
+    /* max-width: 50px; */
+    height: 100%;
+    /* max-width: 50px; */
+    /* height: 100%; */
+    /* height: 100px; */
+    
+    background-color: black;
+    /* top: 600px; */
+    /* left: 100px; */
+    z-index: 2;
+}
+.container .shapes .rectangles .rectangle:nth-child(1){
+    /* position: absolute; */
+    background-color: aqua;
+    /* width: 100%;
+    height: 100%; */
+    /* top: -100px; */
+    /* left: 28px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(2){
+    background-color: aqua;
+    /* left: 66px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(3){
+    background-color: aqua;
+    /* left: 132px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(4){
+    background-color: aqua;
+    /* left: 198px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(5){
+    background-color: aqua;
+    /* left: 264px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(6){
+    background-color: aqua;
+    /* left: 330px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(7){
+    background-color: rgb(46, 45, 45);
+    /* left: 396px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(8){
+    background-color: rgb(46, 45, 45);
+    /* left: 462px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(9){
+    background-color: rgb(46, 45, 45);
+    /* left: 528px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(10){
+    background-color: rgb(46, 45, 45);
+    /* left: 594px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(11){
+    background-color: rgb(46, 45, 45);
+    /* left: 660px; */
+}
+.container .shapes .rectangles .rectangle:nth-child(12){
+    background-color: rgb(46, 45, 45);
+    /* left: 726px; */
+    z-index: 1;
+}
+.container .shapes .circles{
+    position: absolute;
+    width: 40%;
+    height: 66%;
+    top: 0;
+    left: 0;
+}
+.container .shapes .circles .circle{
+    object-fit: contain;
+}
+.container .shapes .circles .smallCircle {
+    position: absolute;
+    /* top: 500px; */
+    /* left: 80px; */
+    height: 12%;
+    width: 8%;
+    background-color: #555;
+    border-radius: 50%;
+}
+.container .shapes .circles .bigCircle{
+    position: absolute;
+    height: 36%;
+    width: 25%;
+    background-color: black;
+    border-radius: 50%;
+}
+.container .shapes .circles .smallCircle:nth-child(1){
+    top: 25%;
+    left: 17%;
+    background-color: rgb(250, 105, 52);
+}
+.container .shapes .circles .smallCircle:nth-child(2){
+    top: 55%;
+    left: 17%;
+    background-color: rgb(250, 105, 52);
+}
+.container .shapes .circles .smallCircle:nth-child(3){
+    top: 30%;
+    left: 93%;
+    background-color: rgb(250, 105, 52);
+}
+.container .shapes .circles .smallCircle:nth-child(4){
+    top: 80%;
+    left: 42%;
+    background-color: rgb(250, 210, 52);
+}
+
+.container .shapes .circles .bigCircle:nth-child(5){
+    top: 25%;
+    left: 45%;
+    background-color: rgb(250, 210, 52);
+}
+.container .shapes .circles .bigCircle:nth-child(6){
+    top: 55%;
+    left: 67%;
+    background-color: rgb(250, 105, 52);
+}
+.container .shapes .triangles{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    /* border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 500px solid green; */
+}
+.container .shapes .bigTriangle {
+    position: absolute;
+    top: 35%;
+    left: 130%;
+    width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 500px solid green;
+    z-index: 0;
+    /* background-color: black; */
+}
+.container .shapes .smallTriangle {
+    position: absolute;
+    top: 71%;
+    left: 170%;
+    width: 0;
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 180px solid transparent;
+	border-bottom: 300px solid yellowgreen;
+    z-index: 1;
+    /* background-color: black; */
+}
+
+
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    /* width: 100px;
+    height: 100px; */
+}
+.forms .form{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+}
+
+/* Media Queries */
+@media only screen and (max-width:768px){
+    .container .flex-container{
+        /* flex-wrap: nowrap; */
+        max-width: 400px;
+        margin-top: 0;
+        /* height: 100px; */
+    }
+    .container .flex-container .background{
+        height: 100px;
+        margin: 0px 10px 0px 0px;
+    }
+    .container .flex-container .background:nth-child(4){
+        width: 95.5%;
+    }
+    .container .shapes .rectangles{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .container .flex-container{
+        max-width: 250px;
+    }
+}
